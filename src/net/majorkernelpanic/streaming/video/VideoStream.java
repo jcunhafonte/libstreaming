@@ -67,7 +67,7 @@ public abstract class VideoStream extends MediaStream {
 	protected SharedPreferences mSettings = null;
 	protected int mVideoEncoder, mCameraId = 0;
 	protected int mRequestedOrientation = 0, mOrientation = 0;
-	protected Camera mCamera;
+	public Camera mCamera;
 	protected Thread mCameraThread;
 	protected Looper mCameraLooper;
 
